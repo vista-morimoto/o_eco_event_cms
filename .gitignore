@@ -6,6 +6,7 @@ digital/
 # 下階層全てのフォルダ内で ".DS_Store"  "img/"ファイルを無視したい
 */.DS_Store
 */img/
+*/images/
 */video/
  
 # 下階層全てのフォルダ内で拡張子が .png .gif .jpg のファイルを無視したい
@@ -16,3 +17,4 @@ digital/
 # img フォルダをまるごと無視したい
 # だけど .png だけは無視したくない
 img/*.*
+images/*.*
