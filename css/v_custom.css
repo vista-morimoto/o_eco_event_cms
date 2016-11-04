@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 767px) {
+.work_box .photo {
+        float: left;
+    height: auto;
+    padding-right: 10px;
+    width: 45%;
+    }
+
+.event_name {
+        overflow: hidden;
+        padding: 0 0 10px;
+        border:none;
+		width:50%;
+    }
+
+.event_name .icon {
+        width: 5rem;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 5px;
+        margin: 0 5px 0 0;
+    }
+
+.event_name .box {
+        width: 100%;
+    }
+
+.event_day {
+  width:100%;
+        overflow: hidden;
+        margin: 10px 0 0;
+        padding: 10px 0 10px;
+        border-bottom: 1px dotted #333;
+        border-top: 1px dotted #333;
+    }
+
+.event_day .icon {
+        width: 5rem;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 5px;
+        float: left;
+        margin: 0 5px 0 0;
+    }
+
+.event_day .box {
+        width: 100%;
+        font-size: 1.3rem;
+        float: none;
+    }
+
+.event_day .box .day{
+        font-size: 1.2em!important;
+    }
+
+.event_info {
+        padding: 10px 0;
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+.sns_box_s p img {
+        width:100%!important;
+    }
+
+.txt_link_area {
+        width: 100%;
+        margin: 20px 0 0;
+        float: left;
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+.sp_search_now_area {
+        width: 100%;
+        margin: 0px auto 20px;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        padding: 10px 0 0;
+  display:none;
+    }
+
+.sp_search_btn_area {
+  display:none;
+    }
+
+.work_right {
+        width:100%;
+    }
+}

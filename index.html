@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='119510350-1',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+<!--{include file="html:.templates/.meta.html"}-->
+<script src="js/jquery.matchHeight.js"></script>
+<link rel="stylesheet" media="all" type="text/css" href="css/slick-theme.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/slick.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<script>
+$(function(){
+  $('.js-matchHeigtht').matchHeight();
+});
+</script>
+<style type="text/css">
+@media screen and (min-width: 768px) {
+    div.ui-datepicker {
+        font-size: 2.1rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.ui-datepicker {
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .ui-datepicker th {
+        padding: 1rem .3em;
+    }
+}
+.ui-datepicker th {
+    padding: 0.5em 0.3em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    height: 30px;
+}
+</style>
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="img/favicon.ico" >
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<!--// スライダー //-->
+<!--{include file="html:.templates/.slider.html"}-->
+<!--// スライダー //-->
+
+<section id="contant">
+
+    <nav id="searchlinkNav" class="pc_none">
+        <ul>
+            <li><a href="#event_area"><i class="fa fa-arrow-down" aria-hidden="true"></i>分野から選ぶ</a></li>
+            <li><a href="#cal_area"><i class="fa fa-arrow-down" aria-hidden="true"></i>日程から選ぶ</a></li>
+        </ul>
+    </nav>
+
+    <p class="mt15 mb15 textC"><a href="e-wtaiken.html"><img src="/cms/wtiger.jpg" alt="ホワイトタイガー"></a></p>
+
+    <aside class="topSupple">
+        <ul>
+          <li>私服で来てね</li>
+          <li>参加無料</li>
+          <li>友達と一緒に参加OK</li>
+          <li>保護者会同時開催</li>
+        </ul>
+    </aside>    
+	<div id="event_area">
+		<p class="tit">分野から選ぶ</p>
+		<div class="event_box">
+			<p class="event"><a href="results.html?category[]=301"><img src="//www.osaka-eco.ac.jp/cms/thum_trimmer.png" alt="ペットトリマー体験"></a></p>
+			<p class="event"><a href="results.html?category[]=2049"><img src="//www.osaka-eco.ac.jp/cms/thum_dogcafe.png" alt="ドッグカフェ体験"></a></p>
+			<p class="event"><a href="results.html?category[]=2047"><img src="//www.osaka-eco.ac.jp/cms/thum_nurse.png" alt="動物看護師体験"></a></p>
+			<p class="event"><a href="results.html?category[]=2048"><img src="//www.osaka-eco.ac.jp/cms/thum_dogtrainer.png" alt="ドッグトレーナー専攻"></a></p>
+			<p class="event"><a href="results.html?category[]=302"><img src="//www.osaka-eco.ac.jp/cms/thum_animal.png" alt="動物飼育体験"></a></p>
+			<p class="event"><a href="results.html?category[]=303"><img src="//www.osaka-eco.ac.jp/cms/thum_ocean.png" alt="海洋体験"></a></p>
+		</div>
+	</div>
+
+<!--// カレンダー //-->
+<!--{include file="html:.templates/.cal.html"}-->
+<!--// カレンダー //-->
+
+	<div id="catgory_area">
+		<div id="etype_parents" class="box">
+            <a href="results.html?type[]=3">
+			<p class="photo"><img src="img/event/tbnr_sp.png" alt="スペシャルメニュー"></p>
+			<p class="txt">普段は体験出来ない大阪ECOだけの特別メニューをご紹介します!</p>
+            </a>
+        </div>
+		<div id="etype_parents" class="box">
+            <a href="e-parent.html">
+			<p class="photo"><img src="img/event/tbnr_parents.png" alt="保護者説明会"></p>
+			<p class="txt">あなたの「好き」を保護者の方にも知ってもらおう！</p>
+            </a>
+        </div>
+		<div id="etype_briefing" class="box">
+            <a href="results.html?type[]=1">
+            <p class="photo"><img src="img/event/tbnr_setumei.png" alt="学校説明会"></p>
+			<p class="txt">夢･進路が見えてくる相談会･説明会に参加しよう!</p>
+            </a>
+        </div>
+		<div id="etype_bus" class="box">
+            <a href="bus.html">
+            <p class="photo"><img src="img/event/tbnr_bus.png" alt="無料送迎バス"></p>
+			<p class="txt">体験入学などにご利用いただける無料送迎バス！</p>
+            </a>
+        </div>
+		<div id="etype_guidance" class="box">
+            <a href="guidance.html">
+            <p class="photo"><img src="img/event/tbnr_guidance.png" alt="あなたの街での説明会"></p>
+			<p class="txt">いろんな専門学校がやって来る！</p>
+            </a>
+        </div>
+		<div id="etype_lodging" class="box">
+            <a href="e-mansion.html">
+            <p class="photo"><img src="img/event/tbnr_ryo.png" alt="無料宿泊体験"></p>
+			<p class="txt">遠方にお住まいのあなたに！！</p>
+            </a>
+        </div>
+		<!--<div id="e-type" class="box">
+			<p class="photo">マイスクール</p>
+			<p class="txt">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>-->
+	</div>
+</section>
+
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>

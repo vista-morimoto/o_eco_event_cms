@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/* -----------------------------------------------------------------------
+## サンクスページ調整(PC/SP) #########################################
+----------------------------------------------------------------------- */
+.eventSlide .text .date{
+	word-wrap: break-word;
+}
+.thanks .thanksMsg .msg {
+	line-height: 1.2;
+}
+span.sat {
+	font-size: 10px;
+	color: #0000FF;
+}
+span.sun{
+	font-size: 10px;
+	color: #FF0000;
+}
+

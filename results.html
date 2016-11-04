@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='119510350-3',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+<!--{include file="html:.templates/.meta.html"}-->
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<style type="text/css">
+@media screen and (min-width: 768px) {
+	div.ui-datepicker {
+		font-size: 1.6rem !important;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	div.ui-datepicker {
+        font-size: 1.6rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+.ui-datepicker th {
+    padding: 0.5em 0.3em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    height: 30px;
+}
+</style>
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="img/favicon.ico" >
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<section id="contant">
+<!--// 検索結果パンくず //-->
+<!--{include file="html:.templates/.results_pankuzu.html"}-->
+<!--// 検索結果パンくず //-->
+
+	<div class="right">
+
+<!--// 検索結果メイン //-->
+<!--{include file="html:.templates/.results_main.html"}-->
+<!--// 検索結果メイン //-->
+
+	</div><!--end .right-->
+
+	<div class="left">
+<!--// 検索結果サイドナビ //-->
+<!--{include file="html:.templates/.results_side.html"}-->
+<!--// 検索結果サイドナビ //-->
+
+<!--// 学校個別サイドエリア //-->
+<!--{include file="html:/"|cat:$school.school_id|cat:"/side_area.html"}-->
+<!--// 学校個別サイドエリア //-->
+
+	</div><!--end .left-->
+
+	<div class="sp_cover_btn">
+		<a href="javascript:void(0);" class="btn_left reset"><i class="fa fa-repeat btn_ico"></i><span>検索条件を</span><br>リセットする</a>
+		<a href="javascript:document.getElementById('find').submit();" class="btn_right active"><span>この条件で</span><br>検索する</a>
+	</div>
+
+</section>
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>
