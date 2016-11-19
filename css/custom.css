@@ -40,7 +40,7 @@ img {
 	color: #F60;
 	}
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   html {
     line-height: 1.5;
   }
@@ -667,7 +667,7 @@ img {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .pcFooter,
   .pcHeader {
     display: none;
@@ -1166,7 +1166,7 @@ input[type="submit"] {
 	color:#88cc33;
 	}
 .slide_area {
-	background:#ECF7DF;
+	background:#ECF7DF;	
 	}
 .slider .box .min_tit {
 	font-family: 'Noto Sans Japanese', serif;
@@ -1427,7 +1427,7 @@ body#page-guidance .btn_area a {
 		background:#EDFCDA;
 	}
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 .event_box .event {
 	margin:0 5px 7px 0;
 	}
@@ -1441,7 +1441,7 @@ body#page-guidance .btn_area a {
 		display:none!important;
 		}
 	}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 /*#cal_area {
     box-sizing: border-box;
     margin: 0;
