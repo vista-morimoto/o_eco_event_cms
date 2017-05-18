@@ -2,9 +2,8 @@
 <html>
 <head>
 <!--{include file="html:.templates/.meta.html"}-->
-<link rel=”canonical” href="http://www.jikei-hospitality.ac.jp/event/results.html" />
 <link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
-<link rel="stylesheet" media="all" type="text/css" href="css/v_custom.css" />
+<!--ヘッダーバナーエリア-->
 <style type="text/css">
 @media screen and (min-width: 768px) {
 	div.ui-datepicker {
@@ -39,35 +38,11 @@
 <!--// ヘッダー //-->
 
 <section id="contant">
-<!--// 検索結果パンくず //-->
-<!--{include file="html:.templates/.results_pankuzu.html"}-->
-<!--// 検索結果パンくず //-->
-
-	<div class="right">
-
-<!--// 検索結果メイン //-->
-<!--{include file="html:.templates/.results_main.html"}-->
-<!--// 検索結果メイン //-->
-
-	</div><!--end .right-->
-
-	<div class="left">
-<!--// 検索結果サイドナビ //-->
-<!--{include file="html:.templates/.results_side.html"}-->
-<!--// 検索結果サイドナビ //-->
-
-<!--// 学校個別サイドエリア //-->
-<!--{include file="html:/"|cat:$school.school_id|cat:"/side_area.html"}-->
-<!--// 学校個別サイドエリア //-->
-
-	</div><!--end .left-->
-
-	<div class="sp_cover_btn">
-		<a href="javascript:void(0);" class="btn_left reset"><i class="fa fa-repeat btn_ico"></i><span>検索条件を</span><br>リセットする</a>
-		<a href="javascript:document.getElementById('find').submit();" class="btn_right active"><span>この条件で</span><br>検索する</a>
-	</div>
-
+<!--// イベント詳細 //-->
+<!--{include file="html:.templates/.event.html"}-->
+<!--// イベント詳細 //-->
 </section>
+
 <!--// フッター //-->
 <!--{include file="html:.templates/.footer.html"}-->
 <!--// フッター //-->

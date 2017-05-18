@@ -627,7 +627,6 @@ img {
     }
   */
   
-  
 /* Myschool */
 .center_box {
 	margin:auto;
@@ -664,6 +663,10 @@ img {
 }
 
 /* Myschool_end */ 
+
+.pc_none {
+display:none!important;
+}
 
 }
 
@@ -991,6 +994,9 @@ img {
 		color:#FFF;
 		padding:10px 0;
 	}
+.sp_none {
+display:none!important;
+}
 }
 /* -----------------------------------------------------------------------
 ## END Header/Footer/contentsNavi ########################################
@@ -1190,6 +1196,8 @@ input[type="submit"] {
 	.slick-prev, .slick-next {
 		background:#82C929;
 		}
+
+.TimeFlow h2,
 #event_area .tit,
 #cal_area .tit,
 #search_now .tit,
@@ -1200,6 +1208,7 @@ input[type="submit"] {
 .syousai_right .min_tit {
 	background:#88CC33!important;
 	}
+.TimeFlow h2,
 #event_area .tit,
 #cal_area .tit,
 .syousai_right .min_tit {
@@ -1426,7 +1435,21 @@ body#page-guidance .btn_area a {
 	.foot_menu li a:hover {
 		background:#EDFCDA;
 	}
-
+.TimeFlow h2 {
+	font-size:2rem;
+	color:#fff;
+	padding:5px;
+	margin-bottom:15px;
+	}
+.TimeFlow dt,
+.TimeFlow dd {
+	font-size:1.6rem;
+}
+.TimeFlow dt {
+	font-weight:bold;
+	color:#88CC33;
+	/*color:#5E4115;*/
+}
 @media screen and (min-width: 768px) {
 .event_box .event {
 	margin:0 5px 7px 0;
@@ -1440,6 +1463,22 @@ body#page-guidance .btn_area a {
 	.pc_none {
 		display:none!important;
 		}
+
+.TimeFlow dl:after {
+	content:" → ";
+	color:#999;
+}
+.TimeFlow dl:last-child:after {
+	content:"";
+	}
+.TimeFlow dt:after {
+	content:" ： ";
+	}
+.TimeFlow dl,
+.TimeFlow dt,
+.TimeFlow dd {
+	display:inline-block;
+}
 	}
 @media screen and (max-width: 767px) {
 /*#cal_area {
@@ -1481,6 +1520,14 @@ body#page-guidance .guidance .tit {
 .sp_search_now_area, .search_results, .sp_search_btn_area {
     display: none;
 }
+
+.TimeFlow dl:after {
+	content:"▼";
+}
+.TimeFlow dl:after:last-child {
+	content:"";
+}
+
 /* Myschool */
 .center_box {
 	/*margin:auto;*/
@@ -1517,6 +1564,21 @@ body#page-guidance .guidance .tit {
 /* Myschool_end */ 
 
 }
+.moveWrap {
+	padding:10px;
+	}
+.moveWrap p {
+	position:relative;
+	width:100%;
+	padding-top:56.25%;
+	}
+	.moveWrap iframe {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		}
 
 /* -----------------------------------------------------------------------
 ## サンクスページ調整(PC/SP) #########################################
@@ -1535,5 +1597,3 @@ span.sun{
 	font-size: 10px;
 	color: #FF0000;
 }
-
-
